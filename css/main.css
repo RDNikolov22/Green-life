@@ -1,188 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+/* BY LUCHEZAR GOSPODINOV */
 
-.topnav {
-    background-color: #D3FAC7;
-    
-    overflow: hidden;
 
-    margin-bottom: -2.95vw;
-    margin-top: -1vw;
-    margin-left: -1vw;
-    width: 100.3vw;
-    height: 6vw;
-  }
-  
- 
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding:24px 20px;
-    text-decoration: none;
-    font-size: 33px;
-    margin-left:15vw ;
-    padding-left: 3vw;
-  }
-  
- 
-  .topnav a:hover {
-    background-color:#bef7ad ;
-    color: white;
-    border-radius: 15vw;
-    text-align: center;
-  text-decoration:wavy;
+body {
+  background-color: #B4EBCA;
+}
+
+
+
+nav {
+  position: absolute;
+  background-color: #D3FAC7;
+  width: 100vw;
+  height: 80px;
+  top: 0px;
+}
+
+/* Positioning for the logo on the navigation bar */
+#logo {
+  position: absolute;
+  width: 113px;
+  height: 75px;
+  right: 680px;
+  top: 3px;
+}
+
+/* Positioning for the home page on the navigation bar */
+#home {
+  position: absolute;
+  right: 50px;
+  top: 26px;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+
+  text-decoration: none;
+}
+
+/* Positioning for the about us page on the navigation bar */
+#about-us {
+  position: absolute;
+  right: 180px;
+  top: 26px;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+
+  text-decoration: none;
+}
+
+/* Positioning for the applications page on the navigation bar */
+#contacts {
+  position: absolute;
+  right: 350px;
+  top: 26px;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+
+  text-decoration: none;
+}
+
+/* Positioning for the sources page on the navigation bar */
+#products {
+  position: absolute;
+  right: 530px;
+  top: 26px;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+
+  text-decoration: none;
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 33px;
+}
+
+.topnav a:hover {
+  color: #0099ff;
+  text-align: center;
+  text-decoration: wavy;
   font-family: monospace;
- 
+} 
 
-  animation: colorRotate 4s linear 0s infinite;
-  }
-  @keyframes colorRotate {
-    from {
-      color: #6666ff;
-    }
-    10% {
-      color: #0099ff;
-    }
-    50% {
-      color: #00ff00;
-    }
-    75% {
-      color: #ff3399;
-    }
-    100% {
-      color: #6666ff;
-    }
-  }
-  .logo{
-    position: absolute;
-    height: 90px;
-    width: 150px;
-    margin-left: 0vw;
-  }
-  .MainPart{
-    background-color: #B4EBCA;
-    
-    width: 100.3vw;
-    height: 38.274vw;
-    margin-left: -1vw;
-    
-  }
-  .Heading1{
-   
-    color: #000;
+.Heading1 {
 
-text-align: center;
-font-family: Smooch Sans;
-font-size: 60px;
-font-style: normal;
-font-weight: 400;
-line-height: normal
+  color: #000;
 
-  }
-  .ShortDescription{
-    position: absolute;
-        width: 403px;
-        height: 114px;
-        top: 275px;
-        left: 240px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  text-align: center;
+  font-family: Smooch Sans;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal
+}
 
-    font-size: 30px;
-    
-    word-spacing: 5px;
-    font-family: Smooch Sans;
-    font-weight: 400;
-    
-      }
-      .ShortDescription1{
-        position: absolute;
-            width: 403px;
-            height: 114px;
-            top: 310px;
-            left: 285px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-    
-        font-size: 30px;
-        
-        word-spacing: 5px;
-        font-family: Smooch Sans;
-        font-weight: 400;
-        
-          }
-          .ShortDescription2{
-            position: absolute;
-                width: 403px;
-                height: 114px;
-                top: 345px;
-                left: 389px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-        
-            font-size: 30px;
-            
-            word-spacing: 5px;
-            font-family: Smooch Sans;
-            font-weight: 400;
-            
-              }
-      .eclips1{
-        position: absolute;
-        width: 125px;
-    height: 54px;
-    top: 520px;
-    left: 570px;
-    border-radius: 20vw;
-    background-color:  #D3FAC7;
-    text-align: center;
-    font-size: large;
-    font-weight:bold;
-    
-    
-      }
-      .eclips1 a{
-        color:black;
-        text-decoration: none;
-         font-family:Arial, Helvetica, sans-serif ;
-      }
-      .flower-main{
-        position: absolute;
-        width: 160px;
-height: 420px;
-top: -345px;
-left: -563px;
+.ShortDescription {
+  position: absolute;
+  width: 403px;
+  height: 114px;
+  top: 275px;
+  left: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-      }
-      .bag-img{
-        position:absolute;
-        width: 200px;
-        height: 167px;
-        top: -432px;
-        left: 565px;
-        
-      }
-      .bottle-img{
-        position:absolute;
-        width: 200px;
-        height: 167px;
-        top: -322px;
-        left: 370px;
-      }
-      .straws-img{
-        position:absolute;
-        width: 200px;
-        height: 167px;
-        top: -212px;
-        left: 565px;
-      }
-      .zerowaste-img{
-        position:absolute;
-        width: 200px;
-        height: 167px;
-        top: -102px;
-        left: 370px;
-      }
- 
+  font-size: 30px;
+
+  word-spacing: 5px;
+  font-family: Smooch Sans;
+  font-weight: 400;
+
+}
+
+.ShortDescription1 {
+  position: absolute;
+  width: 403px;
+  height: 114px;
+  top: 310px;
+  left: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-size: 30px;
+
+  word-spacing: 5px;
+  font-family: Smooch Sans;
+  font-weight: 400;
+
+}
+
+.ShortDescription2 {
+  position: absolute;
+  width: 403px;
+  height: 114px;
+  top: 345px;
+  left: 389px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-size: 30px;
+
+  word-spacing: 5px;
+  font-family: Smooch Sans;
+  font-weight: 400;
+
+}
+
+.eclips1 {
+  position: absolute;
+  width: 125px;
+  height: 54px;
+  top: 520px;
+  left: 570px;
+  border-radius: 20vw;
+  background-color: #D3FAC7;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+
+.eclips1 a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flower-main {
+  position: absolute;
+  width: 160px;
+  height: 420px;
+  top: -345px;
+  left: -563px;
+
+}
+
+.bag-img {
+  position: absolute;
+  width: 200px;
+  height: 167px;
+  top: -432px;
+  left: 565px;
+
+}
+
+.bottle-img {
+  position: absolute;
+  width: 200px;
+  height: 167px;
+  top: -322px;
+  left: 370px;
+}
+
+.straws-img {
+  position: absolute;
+  width: 200px;
+  height: 167px;
+  top: -212px;
+  left: 565px;
+}
+
+.zerowaste-img {
+  position: absolute;
+  width: 200px;
+  height: 167px;
+  top: -102px;
+  left: 370px;
+}
