@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-/* BY LUCHEZAR GOSPODINOV */
-
 
 body {
   background-color: #B4EBCA;
@@ -192,8 +190,8 @@ nav {
   position: absolute;
   width: 200px;
   height: 600px;
-  top: -345px;
-  left: -563px;
+  top: -450px;
+  left: -570px;
   bottom: 0;
 
 }
