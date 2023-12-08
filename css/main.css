@@ -7,16 +7,17 @@ body {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   background-color: #D3FAC7;
-  width: 99.6vw;
+  width: 100vw;
   height: 80px;
   top: 0px;
+  left: 0;
 }
 
 /* Positioning for the logo on the navigation bar */
 #logo {
-  position: absolute;
+  left: 0 ;
   width: 113px;
   height: 75px;
   right: 680px;
@@ -40,8 +41,8 @@ nav {
 
 /* Positioning for the about us page on the navigation bar */
 #about-us {
-  position: absolute;
-  right: 180px;
+  position:fixed;
+  left: 850px;
   top: 26px;
 
   font-family: 'Cabin';
@@ -56,7 +57,7 @@ nav {
 /* Positioning for the applications page on the navigation bar */
 #contacts {
   position: absolute;
-  right: 350px;
+  left: 650px;
   top: 26px;
 
   font-family: 'Cabin';
@@ -71,7 +72,7 @@ nav {
 /* Positioning for the sources page on the navigation bar */
 #products {
   position: absolute;
-  right: 530px;
+  left:450px;
   top: 26px;
 
   font-family: 'Cabin';
@@ -97,7 +98,7 @@ nav {
   font-family: monospace;
 } 
 
-.Heading1 {
+.MainPageHeading {
 
   color: #000;
 
@@ -106,7 +107,10 @@ nav {
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal
+  line-height: normal;
+  position: relative;
+  margin-top:100px ;
+
 }
 
 .ShortDescription {
@@ -167,7 +171,7 @@ nav {
   position: absolute;
   width: 125px;
   height: 54px;
-  top: 520px;
+  top: 550px;
   left: 570px;
   border-radius: 20vw;
   background-color: #D3FAC7;
@@ -186,10 +190,11 @@ nav {
 
 .flower-main {
   position: absolute;
-  width: 160px;
-  height: 420px;
+  width: 200px;
+  height: 600px;
   top: -345px;
   left: -563px;
+  bottom: 0;
 
 }
 
