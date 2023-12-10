@@ -96,10 +96,10 @@ nav {
   font-family: monospace;
 } 
 
-.MainPageHeading {
+.heading {
 
   color: #000;
-
+  left: -130px;
   text-align: center;
   font-family: Smooch Sans;
   font-size: 60px;
