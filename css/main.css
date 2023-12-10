@@ -111,53 +111,16 @@ nav {
 
 }
 
-.ShortDescription {
+.description {
   position: absolute;
-  width: 403px;
+  width: 580px;
   height: 114px;
   top: 275px;
-  left: 240px;
+  left: 350px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
 
-  font-size: 30px;
-
-  word-spacing: 5px;
-  font-family: Smooch Sans;
-  font-weight: 400;
-
-}
-
-.ShortDescription1 {
-  position: absolute;
-  width: 403px;
-  height: 114px;
-  top: 310px;
-  left: 285px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  font-size: 30px;
-
-  word-spacing: 5px;
-  font-family: Smooch Sans;
-  font-weight: 400;
-
-}
-
-.ShortDescription2 {
-  position: absolute;
-  width: 403px;
-  height: 114px;
-  top: 345px;
-  left: 389px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  font-size: 30px;
+  font-size: 50px;
 
   word-spacing: 5px;
   font-family: Smooch Sans;
@@ -201,7 +164,7 @@ nav {
   width: 200px;
   height: 167px;
   top: -432px;
-  left: 565px;
+  right: -750px;
 
 }
 
@@ -210,7 +173,7 @@ nav {
   width: 200px;
   height: 167px;
   top: -322px;
-  left: 370px;
+  right: -550px;
 }
 
 .straws-img {
@@ -218,7 +181,7 @@ nav {
   width: 200px;
   height: 167px;
   top: -212px;
-  left: 565px;
+  right: -720px;
 }
 
 .zerowaste-img {
@@ -226,5 +189,5 @@ nav {
   width: 200px;
   height: 167px;
   top: -102px;
-  left: 370px;
+  right: -530px;
 }
