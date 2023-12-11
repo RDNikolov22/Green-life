@@ -104,55 +104,67 @@ nav {
 }
 
 .leaves2 {
-    
-    
     position: absolute;
     width: 400px;
-height: 600px;
-top: 74px;
-left: 1116px;
-
+    height: 600px;
+    top: 74px;
+    left: 1116px;
 }
 
 .ellipse {
     position: absolute;
-    width: 235px;
-    height: 227px;
-    top: 100px;
+    width: 200px;
+    height: 202px;
+    top: 270px;
+    left: 130px;
 
     background: #D3FAC7;
     mix-blend-mode: normal;
     border-radius: 433px;
 }
+
+.ellipse img {
+    width: 200px;
+}
+
 .ellipse2 {
     position: absolute;
-    width: 235px;
-    height: 227px;
-    top: 100px;
-    left: 600px;
-    
-    background:#D3FAC7;
+    width: 200px;
+    height: 202px;
+    top: 140px;
+    left: 630px;
+
+    background: #D3FAC7;
     mix-blend-mode: normal;
     border-radius: 433px;
 }
-.ellipse3{
+
+.ellipse2 img {
+    width: 200px;
+}
+
+.ellipse3 {
     position: absolute;
-    width: 235px;
-    height: 227px;
-    top: 100px;
+    width: 200px;
+    height: 202px;
+    top: 270px;
     left: 1200px;
-    
-    background:#D3FAC7;
+
+    background: #D3FAC7;
     mix-blend-mode: normal;
     border-radius: 433px;
-    
 }
-.Rentagle1{
-   
-   position:absolute;
-   width: 250px;
-   height: 175px;
-   margin-top: -250px;
+
+.ellipse3 img {
+    width: 200px;
+}
+
+.Rentagle1 {
+    position: absolute;
+    width: 250px;
+    height: 115px;
+    left: 100px;
+    top: 500px;
     border-radius: 24px;
     background: #D3FAC7;
     font-family: Smooch Sans;
@@ -162,14 +174,13 @@ left: 1116px;
     letter-spacing: 0em;
     text-align: center;
     word-spacing: 1vw;
-    
-    
 }
-.Rentagle2{
-    position:absolute;
+
+.Rentagle2 {
+    position: absolute;
     width: 250px;
-    height: 175px;
-    margin-top: -250px;
+    height: 100px;
+    top: 380px;
     left: 610px;
     border-radius: 24px;
     background: #D3FAC7;
@@ -181,12 +192,13 @@ left: 1116px;
     text-align: center;
     word-spacing: 1vw;
 }
-.Rentagle3{
-    position:absolute;
+
+.Rentagle3 {
+    position: absolute;
     width: 250px;
-    height: 175px;
-    margin-top: -250px;
-    left: 1200px;
+    height: 100px;
+    top: 500px;
+    right: 110px;
     border-radius: 24px;
     background: #D3FAC7;
     font-family: Smooch Sans;
