@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
 body {
   background-color: #B4EBCA;
 }
+
 nav {
   position: fixed;
   background-color: #D3FAC7;
@@ -9,15 +11,18 @@ nav {
   height: 80px;
   top: 0px;
   left: 0;
+  z-index: 1100;
 }
+
 /* Positioning for the logo on the navigation bar */
 #logo {
-  left: 0 ;
+  left: 0;
   width: 113px;
   height: 75px;
   right: 680px;
   top: 3px;
 }
+
 /* Positioning for the home page on the navigation bar */
 #home {
   position: absolute;
@@ -30,9 +35,10 @@ nav {
   line-height: 24px;
   text-decoration: none;
 }
+
 /* Positioning for the about us page on the navigation bar */
 #about-us {
-  position:fixed;
+  position: fixed;
   left: 850px;
   top: 26px;
   font-family: 'Cabin';
@@ -42,6 +48,7 @@ nav {
   line-height: 24px;
   text-decoration: none;
 }
+
 /* Positioning for the applications page on the navigation bar */
 #contacts {
   position: absolute;
@@ -54,10 +61,11 @@ nav {
   line-height: 24px;
   text-decoration: none;
 }
+
 /* Positioning for the sources page on the navigation bar */
 #products {
   position: absolute;
-  left:450px;
+  left: 450px;
   top: 26px;
   font-family: 'Cabin';
   font-style: normal;
@@ -66,133 +74,317 @@ nav {
   line-height: 24px;
   text-decoration: none;
 }
+
 .topnav a {
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 33px;
 }
+
 .topnav a:hover {
   color: #0099ff;
   text-align: center;
   text-decoration: wavy;
   font-family: monospace;
-} 
+}
+
 #logo {
-  left: 0 ;
+  left: 0;
   width: 113px;
   height: 75px;
   right: 680px;
   top: 3px;
 }
-  .leaves {
-    top: 80px;
-    position: absolute;
-    left: -60px;
-    height: 450px;
-    width: 400px;
+
+.leaves {
+  top: 80px;
+  position: absolute;
+  left: -60px;
+  height: 450px;
+  width: 400px;
 }
-.grass{
+
+.grass {
   position: absolute;
   height: 450px;
-    width: 400px;
-top: 250px;
-left: 1000px;
-
-
-
-
+  width: 400px;
+  top: 250px;
+  left: 1000px;
 }
-.photo-Rosti{
-  
+
+
+/* Positioning of the cards div */
+.cards {
+  position: absolute;
+  width: 100vw;
+  height: 635.12px;
+  left: calc(50% - 1920px/2);
+  top: 100px;
+}
+
+/* Positioning for the first card */
+#card1 {
+  left: 260px;
+  top: 20px;
+}
+
+/* Image properties for the first card */
+#scrum_img {
   position: absolute;
   width: 230px;
-height: 335px;
-top: 230px;
-left: 20px;
-border-radius: 50px;
+  height: 314px;
+  left: 15px;
+  top: 20px;
 
+  border-radius: 33px;
 }
-.photo-Lacho{
+
+/* Title properties for the first card */
+#title1 {
+  position: absolute;
+  width: 260px;
+  height: 66px;
+  left: calc(50% - 240px/2);
+  top: 375px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Name properties for the first card */
+#name1 {
+  position: absolute;
+  width: 250px;
+  height: 66px;
+  left: calc(50% - 250px/2);
+  top: 400px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Positioning for the second card div */
+#card2 {
+  left: 650px;
+  top: 20px;
+}
+
+/* Image properties for the second card */
+#front1_img {
   position: absolute;
   width: 230px;
-height: 335px;
-top: 230px;
-left: 430px;/*170px*/
-border-radius: 50px;
+  height: 314px;
+  left: 15px;
+  top: 20px;
 
+  border-radius: 33px;
 }
-.photo-Zarko{
+
+/* Title properties for the second card */
+#title2 {
+  position: absolute;
+  width: 260px;
+  height: 66px;
+  left: calc(50% - 340px/2);
+  top: 375px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Name properties for the second card */
+#name2 {
+  position: absolute;
+  width: 250px;
+  height: 66px;
+  left: calc(50% - 250px/2);
+  top: 400px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Positioning for the third card div */
+#card3 {
+  left: 980px;
+  top: 20px;
+}
+
+/* Image properties for the third card */
+#front2_img {
   position: absolute;
   width: 230px;
-height: 335px;
-top: 230px;
-left: 850px;/*170px*/
-border-radius: 50px;
+  height: 314px;
+  left: 15px;
+  top: 20px;
 
+  border-radius: 33px;
 }
-.photo-Yoni{
+
+/* Title properties for the third card */
+#title3 {
+  position: absolute;
+  width: 260px;
+  height: 66px;
+  left: calc(50% - 340px/2);
+  top: 375px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Name properties for the third card */
+#name3 {
+  position: absolute;
+  width: 250px;
+  height: 66px;
+  left: calc(50% - 250px/2);
+  top: 400px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Positioning for the fourth card div */
+#card4 {
+  left: 1400px;
+  top: 20px;
+}
+
+/* Image properties for the fourth card */
+#designer_img {
   position: absolute;
   width: 230px;
-height: 335px;
-top: 230px;
-left: 1250px;/*170px*/
-border-radius: 50px;
+  height: 314px;
+  left: 15px;
+  top: 20px;
 
+  border-radius: 33px;
 }
-.Arrows{
+
+/* Title properties for the fourth card */
+#title4 {
   position: absolute;
+  width: 260px;
+  height: 66px;
+  left: calc(50% - 340px/2);
+  top: 375px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Name properties for the fourth card */
+#name4 {
+  position: absolute;
+  width: 250px;
+  height: 66px;
+  left: calc(50% - 250px/2);
+  top: 400px;
+
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+/* Properties for a individual card */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  position: absolute;
+  width: 260px;
+  height: 500px;
+
+  border-radius: 33px;
+}
+
+/* Properties for the animation of the flipping card */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 33px;
+}
+
+/* This settings are included in the animation for the flipping card */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 33px;
+}
+
+/* This settings are for the layout of the flipped card */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 33px;
+}
+
+/* This settings are for the layout of the front of the flipped card */
+.flip-card-front {
+  background-color: #D3FAC7;
+  color: black;
+}
+
+/* This settings are for the layout of the back of the flipped card */
+.flip-card-back {
+  background-color: #D3FAC7;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* This settings are for the h1 text in the back of the card */
+.flip-card-back h1 {
   width: 230px;
-height: 335px;
-top: 230px;
-left: 640px;/*170px*/
-border-radius: 50px;
-}
-.Scrum{
-  background: #B4EBCA;
-position: absolute;
-top: 530px;
-left: 20px;
-font-size: x-large;
-font-weight: 800;
-}
-.Front-End1{
-  background: #B4EBCA;
   position: absolute;
-  top: 220px;
-  left: 690px;
-  font-size: xx-large;
-  font-weight: 900;
+  left: calc(50% - 230px/2);
+  top: 50px;
+  text-align: center;
 }
-.Front-End2{
-  background: #B4EBCA;
+
+/* This settings are for the p text in the back of the card */
+.flip-card-back p {
   position: absolute;
-  top: 480px;
-  left: 670px;
-  font-size: xx-large;
-  font-weight: 900;
-}
-.Dev1{
-  background: #B4EBCA;
-position: absolute;
-top: 535px;
-left: 480px;
-font-size: xx-large;
-font-weight: 800;
-}
-.Dev2{
-  background: #B4EBCA;
-position: absolute;
-top: 535px;
-left: 924px;
-font-size: xx-large;
-font-weight: 800;
-}
-.Designer{
-  background: #B4EBCA;
-position: absolute;
-top: 543px;
-left: 1285px;
-font-size: x-large;
-font-weight: 800;
+  top: 300px;
+  left: calc(50% - 230px/2);
+  text-align: center;
 }
