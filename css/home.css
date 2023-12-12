@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
 
 body {
     background-color: #B4EBCA;
@@ -103,4 +104,97 @@ nav {
     height: 600px;
     bottom: 0px;
     right: 0px;
+}
+
+.container1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 20%;
+    top: 30%;
+    width: 335px;
+    height: 441px;
+    border-radius: 40px;
+    background: #D3FAC7;
+}
+
+.bins {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 250px;
+}
+
+.heading {
+    position: absolute;
+    color: #000;
+    top: 160px;
+    left: 70px;
+    text-align: center;
+    font-family: Smooch Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph {
+    position: absolute;
+    color: #000;
+    top: 270px;
+    text-align: center;
+    font-family: Smooch Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.container2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 20%;
+    top: 30%;
+    width: 335px;
+    height: 441px;
+    border-radius: 40px;
+    background: #D3FAC7;
+}
+
+.heading2 {
+    position: absolute;
+    color: #000;
+    top: 160px;
+    left: 85px;
+    text-align: center;
+    font-family: Smooch Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.purifier {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    width: 160px;
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 38%;
+    color: #000;
+
+    text-align: center;
+    font-family: Smooch Sans;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
