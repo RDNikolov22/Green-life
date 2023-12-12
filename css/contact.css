@@ -97,17 +97,18 @@ nav {
 }
 
 .leaves {
-    top: 10px;
+    top: 70px;
     position: relative;
-    left: -80px;
+    left: -120px;
     height: 600px;
+    width: 800px;
 }
 
 .leaves2 {
     position: absolute;
-    width: 400px;
-    height: 600px;
-    top: 74px;
+    width: 560px;
+    height: 900px;
+    top: 36px;
     left: 1116px;
 }
 
@@ -115,7 +116,7 @@ nav {
     position: absolute;
     width: 200px;
     height: 202px;
-    top: 270px;
+    top: 370px;
     left: 130px;
 
     background: #D3FAC7;
@@ -131,8 +132,8 @@ nav {
     position: absolute;
     width: 200px;
     height: 202px;
-    top: 140px;
-    left: 630px;
+    top: 170px;
+    left: 720px;
 
     background: #D3FAC7;
     mix-blend-mode: normal;
@@ -147,8 +148,8 @@ nav {
     position: absolute;
     width: 200px;
     height: 202px;
-    top: 270px;
-    left: 1200px;
+    top: 370px;
+    left: 1330px;
 
     background: #D3FAC7;
     mix-blend-mode: normal;
@@ -164,7 +165,7 @@ nav {
     width: 250px;
     height: 115px;
     left: 100px;
-    top: 500px;
+    top: 650px;
     border-radius: 24px;
     background: #D3FAC7;
     font-family: Smooch Sans;
@@ -180,8 +181,8 @@ nav {
     position: absolute;
     width: 250px;
     height: 100px;
-    top: 380px;
-    left: 610px;
+    top: 460px;
+    left: 690px;
     border-radius: 24px;
     background: #D3FAC7;
     font-family: Smooch Sans;
@@ -197,7 +198,7 @@ nav {
     position: absolute;
     width: 250px;
     height: 100px;
-    top: 500px;
+    top: 650px;
     right: 110px;
     border-radius: 24px;
     background: #D3FAC7;

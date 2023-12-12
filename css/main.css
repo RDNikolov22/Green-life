@@ -99,7 +99,7 @@ nav {
 .heading {
 
   color: #000;
-  left: -130px;
+  left: -80px;
   text-align: center;
   font-family: Smooch Sans;
   font-size: 60px;
@@ -116,7 +116,7 @@ nav {
   width: 580px;
   height: 114px;
   top: 275px;
-  left: 350px;
+  left: 450px;
   display: flex;
   text-align: center;
 
@@ -151,8 +151,8 @@ nav {
 
 .flower-main {
   position: absolute;
-  width: 200px;
-  height: 600px;
+  width: 340px;
+  height: 835px;
   top: -450px;
   left: -570px;
   bottom: 0;
@@ -161,33 +161,33 @@ nav {
 
 .bag-img {
   position: absolute;
-  width: 200px;
-  height: 167px;
-  top: -432px;
-  right: -750px;
+  width: 280px;
+  height: 247px;
+  top: -440px;
+  right: -880px;
 
 }
 
 .bottle-img {
   position: absolute;
-  width: 200px;
-  height: 167px;
-  top: -322px;
-  right: -550px;
+  width: 280px;
+  height: 247px;
+  top: -262px;
+  right: -650px;
 }
 
 .straws-img {
   position: absolute;
-  width: 200px;
-  height: 167px;
-  top: -212px;
-  right: -720px;
+  width: 280px;
+  height: 247px;
+  top: -82px;
+  right: -880px;
 }
 
 .zerowaste-img {
   position: absolute;
-  width: 200px;
-  height: 167px;
-  top: -102px;
-  right: -530px;
+  width: 280px;
+  height: 247px;
+  top: 100px;
+  right: -650px;
 }
