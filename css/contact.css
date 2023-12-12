@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-
+/*Body Structure*/
 body {
     background-color: #B4EBCA;
 }
+/*Navigation Bar Structure*/
 nav {
     position: fixed;
     background-color: #D3FAC7;
@@ -12,6 +13,7 @@ nav {
     left: 0;
     z-index: 1100;
 }
+/*Logo on Navigation Bar Structure*/
 #logo {
     left: 0;
     width: 113px;
@@ -67,26 +69,28 @@ nav {
     line-height: 24px;
     text-decoration: none;
 }
+/*Navigation Bar Items Structure*/
 .topnav a {
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 33px;
 }
+/*Nagigation Bar Item Animation While Hovered Structure*/
 .topnav a:hover {
     color: #0099ff;
     text-align: center;
     text-decoration: wavy;
     font-family: monospace;
 }
-
+/*Leaves Image Structure*/
 .leaves {
     top: 10px;
     position: relative;
     left: -40px;
     height: 600px;
 }
-
+/*Leaves Image Number 2 Structure*/
 .leaves2 {
     position: absolute;
     width: 400px;
@@ -94,7 +98,7 @@ nav {
     bottom: 0px;
     right: 0px;
 }
-
+/*Ellipse Structure*/
 .ellipse {
     position: absolute;
     width: 200px;
@@ -106,9 +110,11 @@ nav {
     mix-blend-mode: normal;
     border-radius: 433px;
 }
+/*Ellipse Image Structure*/
 .ellipse img {
     width: 200px;
 }
+/*Ellipse Number 2 Structure*/
 .ellipse2 {
     position: absolute;
     width: 200px;
@@ -120,9 +126,11 @@ nav {
     mix-blend-mode: normal;
     border-radius: 433px;
 }
+/*Ellipse Image Number 2 Structure*/
 .ellipse2 img {
     width: 200px;
 }
+/*Ellipse Number 3 Structure*/
 .ellipse3 {
     position: absolute;
     width: 200px;
@@ -134,9 +142,11 @@ nav {
     mix-blend-mode: normal;
     border-radius: 433px;
 }
+/*Ellipse Image Number 3 Structure*/
 .ellipse3 img {
     width: 200px;
 }
+/*Rentagle Number 1 Structure*/
 .Rentagle1 {
     position: absolute;
     width: 250px;
@@ -153,6 +163,7 @@ nav {
     text-align: center;
     word-spacing: 1vw;
 }
+/*Rentagle Number 2 Structure*/
 .Rentagle2 {
     position: absolute;
     width: 250px;
@@ -169,6 +180,7 @@ nav {
     text-align: center;
     word-spacing: 1vw;
 }
+/*Rentagle Number 3 Structure*/
 .Rentagle3 {
     position: absolute;
     width: 250px;

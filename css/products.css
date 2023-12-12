@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
-
+/*Body structure*/
 body {
   background-color: #B4EBCA;
 }
-
+/*Navigation bar structure*/
 nav {
   position: fixed;
   background-color: #D3FAC7;
@@ -14,7 +14,7 @@ nav {
   left: 0;
   z-index: 1100;
 }
-
+/* Positioning for the logo on the navigation bar */
 #logo {
   left: 0;
   width: 113px;
@@ -82,35 +82,35 @@ nav {
 
   text-decoration: none;
 }
-
+/*Navigation Bar Items Structure*/
 .topnav a {
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 33px;
 }
-
+/*Nagigation Bar Item Animation While Hovered Structure*/
 .topnav a:hover {
   color: #0099ff;
   text-align: center;
   text-decoration: wavy;
   font-family: monospace;
 }
-
+/*Leaves Image  Structure*/
 .leaves3 {
   top: 60px;
   position: relative;
   left: -30px;
   height: 670px;
 }
-
+/*Cart Image Structure*/
 .cart {
   bottom: 0px;
   position: absolute;
   right: 0px;
   height: 300px;
 }
-
+/*Container Number 1  Structure*/
 .container1 {
   position: absolute;
   display: flex;
@@ -123,14 +123,14 @@ nav {
   border-radius: 40px;
   background: #D3FAC7;
 }
-
+/*House Image  Structure*/
 .house {
   position: relative;
   top: 50px;
   left: 40px;
   width: 250px;
 }
-
+/*Container Number 1 text Structure*/
 .container1 p {
   color: #000;
 
@@ -141,7 +141,7 @@ nav {
   font-weight: 400;
   line-height: normal;
 }
-
+/*Container Number 2  Structure*/
 .container2 {
   position: absolute;
   display: flex;
@@ -154,14 +154,14 @@ nav {
   border-radius: 40px;
   background: #D3FAC7;
 }
-
+/*Flower Image Structure*/
 .flower4 {
   position: relative;
   top: 50px;
   right: -110px;
   width: 120px;
 }
-
+/*Container Number 2 text Structure*/
 .container2 p {
   color: #000;
 
@@ -172,7 +172,7 @@ nav {
   font-weight: 400;
   line-height: normal;
 }
-
+/*H1 Structure*/
 h1 {
   position: absolute;
   top: 100px;

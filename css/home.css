@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
-
+/*Body structure*/
 body {
     background-color: #B4EBCA;
 }
-
+/*Navigation bar structure*/
 nav {
     position: fixed;
     background-color: #D3FAC7;
@@ -76,28 +76,28 @@ nav {
     text-decoration: none;
 }
 
-
+/*Navigation Bar Items Structure*/
 .topnav a {
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 33px;
 }
-
+/*Nagigation Bar Item Animation While Hovered Structure*/
 .topnav a:hover {
     color: #0099ff;
     text-align: center;
     text-decoration: wavy;
     font-family: monospace;
 }
-
+/*Leaves Image Structure*/
 .leaves {
     top: 10px;
     position: relative;
     left: -40px;
     height: 600px;
 }
-
+/*Leaves Image Number 2 Structure*/
 .leaves2 {
     position: absolute;
     width: 400px;
@@ -105,7 +105,7 @@ nav {
     bottom: 0px;
     right: 0px;
 }
-
+/*Contauner Number 1 Structure*/
 .container1 {
     position: absolute;
     display: flex;
@@ -118,14 +118,14 @@ nav {
     border-radius: 40px;
     background: #D3FAC7;
 }
-
+/*Bins Image Structure*/
 .bins {
     position: absolute;
     top: 50px;
     left: 50px;
     width: 250px;
 }
-
+/*heading Structure*/
 .heading {
     position: absolute;
     color: #000;
@@ -138,7 +138,7 @@ nav {
     font-weight: 400;
     line-height: normal;
 }
-
+/*Paragraph Structure*/
 .paragraph {
     position: absolute;
     color: #000;
@@ -151,7 +151,7 @@ nav {
     line-height: normal;
     padding: 10px;
 }
-
+/*Contauner Number 2 Structure*/
 .container2 {
     position: absolute;
     display: flex;
@@ -164,7 +164,7 @@ nav {
     border-radius: 40px;
     background: #D3FAC7;
 }
-
+/*heading Number 2 Structure*/
 .heading2 {
     position: absolute;
     color: #000;
@@ -177,14 +177,14 @@ nav {
     font-weight: 400;
     line-height: normal;
 }
-
+/*Purifier Image Structure*/
 .purifier {
     position: absolute;
     top: 10px;
     left: 90px;
     width: 160px;
 }
-
+/*H1 Structure*/
 h1 {
     position: absolute;
     top: 100px;

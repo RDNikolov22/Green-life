@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-
+/*Body structure*/
 body {
   background-color: #B4EBCA;
 }
-
+/*Navigation bar structure*/
 nav {
   position: fixed;
   background-color: #D3FAC7;
@@ -74,21 +74,21 @@ nav {
   line-height: 24px;
   text-decoration: none;
 }
-
+/*Navigation Bar Items Structure*/
 .topnav a {
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 33px;
 }
-
+/*Nagigation Bar Item Animation While Hovered Structure*/
 .topnav a:hover {
   color: #0099ff;
   text-align: center;
   text-decoration: wavy;
   font-family: monospace;
 }
-
+/*Logo on Nav Bar Structure*/
 #logo {
   left: 0;
   width: 113px;
@@ -96,7 +96,7 @@ nav {
   right: 680px;
   top: 3px;
 }
-
+/*Leaves Image Structure*/
 .leaves {
   top: 80px;
   position: absolute;
@@ -104,7 +104,7 @@ nav {
   height: 450px;
   width: 400px;
 }
-
+/*Grass Image Structure*/
 .grass {
   position: absolute;
   height: 450px;
