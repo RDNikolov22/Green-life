@@ -329,6 +329,10 @@ nav {
 
   border-radius: 33px;
 }
+.flip-card  p {
+font-weight: 600;
+font-size: large;
+}
 
 /* Properties for the animation of the flipping card */
 .flip-card-inner {
