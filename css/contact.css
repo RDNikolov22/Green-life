@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-
 body {
     background-color: #B4EBCA;
 }
-
 nav {
     position: fixed;
     background-color: #D3FAC7;
@@ -13,7 +11,6 @@ nav {
     left: 0;
     z-index: 1100;
 }
-
 #logo {
     left: 0;
     width: 113px;
@@ -21,74 +18,60 @@ nav {
     right: 680px;
     top: 3px;
 }
-
 /* Positioning for the home page on the navigation bar */
 #home {
     position: absolute;
     right: 50px;
     top: 26px;
-
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 24px;
-
     text-decoration: none;
 }
-
 /* Positioning for the about us page on the navigation bar */
 #about-us {
     position: fixed;
     left: 850px;
     top: 26px;
-
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-
     text-decoration: none;
 }
-
 /* Positioning for the applications page on the navigation bar */
 #contacts {
     position: absolute;
     left: 650px;
     top: 26px;
-
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-
     text-decoration: none;
 }
-
 /* Positioning for the sources page on the navigation bar */
 #products {
     position: absolute;
     left: 450px;
     top: 26px;
-
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-
     text-decoration: none;
 }
-
 .topnav a {
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 33px;
 }
-
 .topnav a:hover {
     color: #0099ff;
     text-align: center;
@@ -97,75 +80,68 @@ nav {
 }
 
 .leaves {
-    top: 70px;
+    top: 10px;
     position: relative;
-    left: -120px;
+    left: -40px;
     height: 600px;
-    width: 800px;
 }
 
 .leaves2 {
     position: absolute;
-    width: 560px;
-    height: 900px;
-    top: 36px;
-    left: 1116px;
+    width: 400px;
+    height: 600px;
+    bottom: 0px;
+    right: 0px;
 }
 
 .ellipse {
     position: absolute;
     width: 200px;
     height: 202px;
-    top: 370px;
+    top: 220px;
     left: 130px;
 
     background: #D3FAC7;
     mix-blend-mode: normal;
     border-radius: 433px;
 }
-
 .ellipse img {
     width: 200px;
 }
-
 .ellipse2 {
     position: absolute;
     width: 200px;
     height: 202px;
-    top: 170px;
-    left: 720px;
+    top: 140px;
+    left: 630px;
 
     background: #D3FAC7;
     mix-blend-mode: normal;
     border-radius: 433px;
 }
-
 .ellipse2 img {
     width: 200px;
 }
-
 .ellipse3 {
     position: absolute;
     width: 200px;
     height: 202px;
-    top: 370px;
-    left: 1330px;
+    top: 220px;
+    left: 1200px;
 
     background: #D3FAC7;
     mix-blend-mode: normal;
     border-radius: 433px;
 }
-
 .ellipse3 img {
     width: 200px;
 }
-
 .Rentagle1 {
     position: absolute;
     width: 250px;
     height: 115px;
     left: 100px;
-    top: 650px;
+    top: 450px;
     border-radius: 24px;
     background: #D3FAC7;
     font-family: Smooch Sans;
@@ -176,13 +152,12 @@ nav {
     text-align: center;
     word-spacing: 1vw;
 }
-
 .Rentagle2 {
     position: absolute;
     width: 250px;
     height: 100px;
-    top: 460px;
-    left: 690px;
+    top: 380px;
+    left: 610px;
     border-radius: 24px;
     background: #D3FAC7;
     font-family: Smooch Sans;
@@ -193,12 +168,11 @@ nav {
     text-align: center;
     word-spacing: 1vw;
 }
-
 .Rentagle3 {
     position: absolute;
     width: 250px;
     height: 100px;
-    top: 650px;
+    top: 450px;
     right: 110px;
     border-radius: 24px;
     background: #D3FAC7;

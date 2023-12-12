@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-
 body {
   background-color: #B4EBCA;
 }
-
 nav {
   position: fixed;
   background-color: #D3FAC7;
@@ -12,7 +10,6 @@ nav {
   top: 0px;
   left: 0;
 }
-
 /* Positioning for the logo on the navigation bar */
 #logo {
   left: 0 ;
@@ -21,85 +18,70 @@ nav {
   right: 680px;
   top: 3px;
 }
-
 /* Positioning for the home page on the navigation bar */
 #home {
   position: absolute;
   right: 50px;
   top: 26px;
-
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-
   text-decoration: none;
 }
-
 /* Positioning for the about us page on the navigation bar */
 #about-us {
   position:fixed;
   left: 850px;
   top: 26px;
-
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-
   text-decoration: none;
 }
-
 /* Positioning for the applications page on the navigation bar */
 #contacts {
   position: absolute;
   left: 650px;
   top: 26px;
-
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-
   text-decoration: none;
 }
-
 /* Positioning for the sources page on the navigation bar */
 #products {
   position: absolute;
   left:450px;
   top: 26px;
-
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-
   text-decoration: none;
 }
-
 .topnav a {
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 33px;
 }
-
 .topnav a:hover {
   color: #0099ff;
   text-align: center;
   text-decoration: wavy;
   font-family: monospace;
 } 
-
 .heading {
 
   color: #000;
-  left: -80px;
+  left: -130px;
   text-align: center;
   font-family: Smooch Sans;
   font-size: 60px;
@@ -108,26 +90,21 @@ nav {
   line-height: normal;
   position: relative;
   margin-top:100px ;
-
 }
-
 .description {
   position: absolute;
   width: 580px;
   height: 114px;
   top: 275px;
-  left: 450px;
+  left: 350px;
   display: flex;
   text-align: center;
 
   font-size: 50px;
-
   word-spacing: 5px;
   font-family: Smooch Sans;
   font-weight: 400;
-
 }
-
 .eclips1 {
   position: absolute;
   width: 125px;
@@ -139,10 +116,7 @@ nav {
   text-align: center;
   font-size: large;
   font-weight: bold;
-
-
 }
-
 .eclips1 a {
   color: black;
   text-decoration: none;
@@ -151,43 +125,42 @@ nav {
 
 .flower-main {
   position: absolute;
-  width: 340px;
-  height: 835px;
+  width: 200px;
+  height: 600px;
   top: -450px;
   left: -570px;
   bottom: 0;
-
 }
 
 .bag-img {
   position: absolute;
-  width: 280px;
-  height: 247px;
-  top: -440px;
-  right: -880px;
+  width: 200px;
+  height: 167px;
+  top: -432px;
+  right: -750px;
 
 }
 
 .bottle-img {
   position: absolute;
-  width: 280px;
-  height: 247px;
-  top: -262px;
-  right: -650px;
+  width: 200px;
+  height: 167px;
+  top: -322px;
+  right: -550px;
 }
 
 .straws-img {
   position: absolute;
-  width: 280px;
-  height: 247px;
-  top: -82px;
-  right: -880px;
+  width: 200px;
+  height: 167px;
+  top: -212px;
+  right: -720px;
 }
 
 .zerowaste-img {
   position: absolute;
-  width: 280px;
-  height: 247px;
-  top: 100px;
-  right: -650px;
+  width: 200px;
+  height: 167px;
+  top: -102px;
+  right: -530px;
 }
