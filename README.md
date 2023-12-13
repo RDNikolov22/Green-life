@@ -42,8 +42,8 @@ Used tools for our documentation, presentation & communication:
 </p>
 
 📄 Documents Code & Team Documentation <br>
- • [Team Documentation]([https://codingburgas-my.sharepoint.com/:w:/r/personal/rdnikolov22_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7B419A7F43-EB6F-4880-9B6B-364B59173F04%7D](https://codingburgas-my.sharepoint.com/:w:/g/personal/rdnikolov22_codingburgas_bg/EUN_mkFv64BIm2s2S1kXPwQBRNq24cPY8JJzzItcoOBQAg?e=0yyqfm))<br>
- • [Presentation]([https://codingburgas-my.sharepoint.com/:p:/r/personal/rdnikolov22_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7B3868D62C-093F-4FDE-9945-AE0E33A1DE22%7D](https://codingburgas-my.sharepoint.com/:p:/g/personal/rdnikolov22_codingburgas_bg/ESzWaDg_Cd5PmUWuDjOh3iIBhFFeb3hXmCBnjuwDoU2s6A?e=p6otuY))
+ • [Team Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/rdnikolov22_codingburgas_bg/EUN_mkFv64BIm2s2S1kXPwQBRNq24cPY8JJzzItcoOBQAg?e=0yyqfm)<br>
+ • [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/rdnikolov22_codingburgas_bg/ESzWaDg_Cd5PmUWuDjOh3iIBhFFeb3hXmCBnjuwDoU2s6A?e=p6otuY)
 
 <p align="center">
     <img src="https://cdn.discordapp.com/attachments/1103246649075171390/1116130271583031347/line-light.jpg"/>
